@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Ashwin Babu | Creative Portfolio</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="main-bg">
+        <header>
+            <div class="logo">
+                <span class="logo-icon">&#9654;&#9654;</span>
+            </div>
+            <nav>
+                <a href="#home" class="nav-link">Home</a>
+                <a href="#about" class="nav-link">About</a>
+                <a href="#projects" class="nav-link">Projects</a>
+                <a href="#testimonials" class="nav-link">Testimonials</a>
+                <a href="#contact" class="contact-btn">Contact</a>
+            </nav>
+        </header>
+        <section class="hero" id="home">
+            <div class="hero-content">
+                <span class="tag">Digital Creator</span>
+                <h1>Ashwin Babu</h1>
+                <h2>Lifestyle & Fashion Digital Creative</h2>
+                <p>Bringing stories to life through style, strategy, and scroll-stopping content. I craft visuals and campaigns that connect, inspire, and leave a lasting impression – designed for the fast-paced world of digital media.</p>
+                <button class="cta-btn" onclick="scrollToSection('projects')">View My Work</button>
+            </div>
+            <div class="hero-img">
+                <img src="profile.jpg" alt="Ashwin Babu Profile Photo" />
+            </div>
+        </section>
+        <!-- About Section -->
+        <section class="about" id="about">
+            <h3>About Me</h3>
+            <div class="about-content">
+                <p>
+                    Hi, I'm Ashwin Babu – a passionate digital creator blending art, technology, and storytelling. My journey is driven by curiosity and a love for modern design, innovation, and user experience. Let's build something amazing together!
+                </p>
+            </div>
+        </section>
+        <!-- Projects Section -->
+        <section class="projects" id="projects">
+            <h3>Projects</h3>
+            <div class="project-cards">
+                <div class="project-card">
+                    <h4>FashionLookbook</h4>
+                    <p>Interactive web lookbooks with immersive transitions and parallax effects.</p>
+                </div>
+                <div class="project-card">
+                    <h4>Brand Campaigns</h4>
+                    <p>Creative social media campaigns & digital branding with animated reveals.</p>
+                </div>
+                <div class="project-card">
+                    <h4>Portfolio WebApp</h4>
+                    <p>Responsive portfolio with dynamic, animated sections and glassmorphism.</p>
+                </div>
+            </div>
+        </section>
+        <!-- Testimonials Section -->
+        <section class="testimonials" id="testimonials">
+            <h3>Testimonials</h3>
+            <div class="testimonial-slider">
+                <div class="testimonial active">
+                    <p>"Ashwin's creativity is incredible! The website he built for our brand is stunning and super interactive."</p>
+                    <span>- Riya Sharma</span>
+                </div>
+                <div class="testimonial">
+                    <p>"Loved the smooth effects and modern design. Our users are truly impressed!"</p>
+                    <span>- Vikram Singh</span>
+                </div>
+                <div class="testimonial">
+                    <p>"Working with Ashwin was fantastic. He understands both design and technology."</p>
+                    <span>- Anjali Mehta</span>
+                </div>
+            </div>
+            <div class="testimonial-controls">
+                <span class="dot active"></span>
+                <span class="dot"></span>
+                <span class="dot"></span>
+            </div>
+        </section>
+        <!-- Contact Section -->
+        <section class="contact-section" id="contact">
+            <h3>Contact Me</h3>
+            <form id="contactForm">
+                <input type="text" placeholder="Your Name" required>
+                <input type="email" placeholder="Your Email" required>
+                <textarea placeholder="Your Message" required></textarea>
+                <button type="submit">Send Message</button>
+            </form>
+        </section>
+        <footer>
+            <span>© 2025 Ashwin Babu. All rights reserved.</span>
+        </footer>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
